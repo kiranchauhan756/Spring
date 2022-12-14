@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<bean class="com.spring.College" name="college1">
+		<property name="department">
+			<list>
+				<value>MCA</value>
+				<value>BSC</value>
+				<value>IT</value>
+				<value>BTECH</value>
+				<null />
+			</list>
+		</property>
+		<property name="dept_code">
+			<set>
+				<value>0001</value>
+				<value>0002</value>
+				<value>0003</value>
+				<value>0004</value>
+			</set>
+		</property>
+		<property name="course">
+			<map>
+				<entry key="mca" value="2-years"></entry>
+				<entry key="it" value="4-years"></entry>
+				<entry key="mca" value="3-years"></entry>
+				<entry key="cse" value="4-years"></entry>
+			</map>
+		</property>
+
+	</bean>
+</beans>

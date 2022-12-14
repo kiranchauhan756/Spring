@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+	<bean class="com.spring.BeanOfRefrence.Address" name="address1">
+		<property name="city">
+			<value>Tundla</value>
+		</property>
+		<property name="state">
+			<value>Uttar Pradesh</value>
+		</property>
+		<property name="country">
+			<value>India</value>
+		</property>
+	</bean>
+	<bean class="com.spring.BeanOfRefrence.Employee" name="employee1">
+		<property name="name">
+			<value>Kiran Chauhan</value>
+		</property>
+		<property name="salary">
+			<list>
+				<value>2000</value>
+				<value>3000</value>
+				<value>39000</value>
+			</list>
+		</property>
+		<property name="address">
+			<ref bean="address1"/>
+		</property>
+	</bean>
+</beans>
+  

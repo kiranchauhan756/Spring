@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+
+	<bean class="com.spring.Employee" name="employee1">
+		<property name="name" value="Kiran Chauhan" />
+		<property name="position">
+			<map>
+				<entry key="engineer" value="2000000"></entry>
+				<entry key="teacher" value="30000"></entry>
+			</map>
+		</property>
+		<property name="address" ref="address1" />
+	</bean>
+
+	<bean class="com.spring.Address" name="address1">
+		<property name="city" value="tundla" />
+		<property name="state" value="up"></property>
+		<property name="country" value="india" />
+	</bean>
+</beans>
