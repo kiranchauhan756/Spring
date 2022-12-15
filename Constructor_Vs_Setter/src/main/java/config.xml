@@ -16,14 +16,14 @@
 
 	<!-- diff 2). Constructor have ambiguity problem it is always confused about 
 		which constructor is being called -->
-		<!-- by default it  runs the string constructor then if string 
-		not found it searches by heriditary -->
-		<!-- we can solve this problem by specifying the type ="data type" -->
-		<!-- we can also change the index of parameters by index="index_number" 
-		  the index value always start with 0   -->
-		
+	<!-- by default it runs the string constructor then if string not found 
+		it searches by heriditary -->
+	<!-- we can solve this problem by specifying the type ="data type" -->
+	<!-- we can also change the index of parameters by index="index_number" 
+		the index value always start with 0 -->
+
 	<bean class="com.spring.Addition" name="addition2">
-		<constructor-arg value="20" type="int" index="1"/>
-		<constructor-arg value="40" type="int" index="0"/>
+		<constructor-arg value="20" type="int" index="1" />
+		<constructor-arg value="40" type="int" index="0" />
 	</bean>
 </beans>
