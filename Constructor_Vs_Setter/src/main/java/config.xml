@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<!-- diff 1). Using both constructor and setter injection still the preference 
+		is to setter injection it is only called -->
+	<bean class="com.spring.Addition" name="addition1">
+		<constructor-arg value="20" />
+		<constructor-arg value="25" />
+		<property name="a" value="10" />
+		<property name="b" value="20" />
+	</bean>
+
+	<!-- diff 2). Constructor have ambiguity problem it is always confused about 
+		which constructor is being called -->
+		<!-- by default it  runs the string constructor then if string 
+		not found it searches by heriditary -->
+		<!-- we can solve this problem by specifying the type ="data type" -->
+		<!-- we can also change the index of parameters by index="index_number" 
+		  the index value always start with 0   -->
+		
+	<bean class="com.spring.Addition" name="addition2">
+		<constructor-arg value="20" type="int" index="1"/>
+		<constructor-arg value="40" type="int" index="0"/>
+	</bean>
+</beans>
