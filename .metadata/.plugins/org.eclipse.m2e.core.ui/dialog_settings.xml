@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Kiran\Spring\Constructor_Vs_Setter"/>
 			<item value="D:\Kiran\Spring\springNonPrimitiveInjection"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -26,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.Init_And_Destroy_Using_Interface"/>
 			<item value="com.spring"/>
 			<item value="com.spring.BeanOfRefrence"/>
 			<item value="com.springcore"/>
@@ -37,6 +39,9 @@
 			<item value="First"/>
 		</list>
 		<list key="artifactId">
+			<item value="Init_And_Destroy_Using_Interface"/>
+			<item value="Init_And_Destroy_Method"/>
+			<item value="Constructor_Vs_Setter"/>
 			<item value="ConstructorInjection"/>
 			<item value="RefrenceInjection"/>
 			<item value="BeanOfRefrence"/>
