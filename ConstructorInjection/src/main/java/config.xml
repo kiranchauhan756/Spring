@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+      
+      <!-- using constructor-schema (c-schema) -->
+      <bean  class="com.spring.Address" name="address1"  c:city="Tundla" c:state="Up" c:country="India"/>
+
+
+	<bean class="com.spring.Student" name="student1">
+		<constructor-arg>
+			<value>Kiran Chauhan</value>
+		</constructor-arg>
+		<constructor-arg value="20" />
+		<constructor-arg>
+			<list>
+				<value>Delhi Public School</value>
+				<value>Mumbai Public School</value>
+				<value>Jogi Public School</value>
+			</list>
+		</constructor-arg>
+		<constructor-arg ref="address1"></constructor-arg>
+
+	</bean>
+</beans>

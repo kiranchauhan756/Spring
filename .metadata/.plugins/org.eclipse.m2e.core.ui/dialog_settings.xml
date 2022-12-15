@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Kiran\Spring\springNonPrimitiveInjection"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,14 +26,21 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring"/>
+			<item value="com.spring.BeanOfRefrence"/>
 			<item value="com.springcore"/>
 			<item value="First.springProject"/>
 		</list>
 		<list key="groupId">
+			<item value="com.spring"/>
 			<item value="com.springcore"/>
 			<item value="First"/>
 		</list>
 		<list key="artifactId">
+			<item value="ConstructorInjection"/>
+			<item value="RefrenceInjection"/>
+			<item value="BeanOfRefrence"/>
+			<item value="nonPrimitive"/>
 			<item value="springcore"/>
 			<item value="springProject"/>
 		</list>
@@ -70,5 +78,17 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="MavenCheckoutLocationPage">
+		<list key="scmUrl">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
 	</section>
 </section>
