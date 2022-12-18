@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:c="http://www.springframework.org/schema/c"
+	xsi:schemaLocation="
+      http://www.springframework.org/schema/beans 
+      http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+
+	<bean class="com.spring.Address" name="address" c:city="Tundla"
+		c:state="Uttar Pradesh" />
+
+	<bean class="com.spring.Salary" name="salary1" c:pf="4000"
+		c:ctc="3000" />
+	<bean class="com.spring.Salary" name="salary" c:pf="5000"
+		c:ctc="6000" />
+	<bean class="com.spring.Employee" name="employee"
+		autowire="constructor" />
+
+</beans>

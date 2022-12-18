@@ -40,6 +40,7 @@
 			<item value="First"/>
 		</list>
 		<list key="artifactId">
+			<item value="AutoWiring_Using_Xml"/>
 			<item value="CreateBeanLifeCycleUsingAnnotation"/>
 			<item value="Init_And_Destroy_Using_Interface"/>
 			<item value="Init_And_Destroy_Method"/>
