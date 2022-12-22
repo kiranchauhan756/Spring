@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Kiran\Spring\Using_Bean_Annotation"/>
+			<item value="D:\Kiran\Spring\SpeL_Expression"/>
 			<item value="D:\Kiran\Spring\Init_And_Destroy_Using_Interface\src\main\java\com\spring\Student.java"/>
 			<item value="D:\Kiran\Spring\Constructor_Vs_Setter"/>
 			<item value="D:\Kiran\Spring\springNonPrimitiveInjection"/>
@@ -28,7 +30,9 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.spring.JDBCSpring"/>
 			<item value="com.spring"/>
+			<item value="com.spring.Annotation_Remove_XmlConfig"/>
 			<item value="com.spring.Init_And_Destroy_Using_Interface"/>
 			<item value="com.spring.BeanOfRefrence"/>
 			<item value="com.springcore"/>
@@ -40,6 +44,9 @@
 			<item value="First"/>
 		</list>
 		<list key="artifactId">
+			<item value="JDBCSpring"/>
+			<item value="SpringJDBC"/>
+			<item value="Annotation_Remove_XmlConfig"/>
 			<item value="AutoWiring_Using_Xml"/>
 			<item value="CreateBeanLifeCycleUsingAnnotation"/>
 			<item value="Init_And_Destroy_Using_Interface"/>
