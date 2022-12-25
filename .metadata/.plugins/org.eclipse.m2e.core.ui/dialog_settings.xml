@@ -2,6 +2,9 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="D:\Kiran\Spring\Spring_MVC_Project"/>
+			<item value="D:\Kiran\Spring\SpringMvc"/>
+			<item value="D:\Kiran\Spring\NoXml_JDBC"/>
 			<item value="D:\Kiran\Spring\JDBCSpring"/>
 			<item value="D:\Kiran\Spring\Using_Bean_Annotation"/>
 			<item value="D:\Kiran\Spring\SpeL_Expression"/>
@@ -45,21 +48,21 @@
 			<item value="First"/>
 		</list>
 		<list key="artifactId">
+			<item value="Maven_Form"/>
+			<item value="Form__Spring"/>
+			<item value="Form_Spring"/>
+			<item value="First_Form_GET_AND_POST"/>
+			<item value="First_Form_Spring"/>
+			<item value="Spring_MVC_Project"/>
+			<item value="Spring_Maven_Project"/>
+			<item value="SpringMvc"/>
+			<item value="AnnotationDbms"/>
 			<item value="NoXml_JDBC"/>
 			<item value="JDBC_Spring"/>
 			<item value="JDBCSpring"/>
 			<item value="SpringJDBC"/>
 			<item value="Annotation_Remove_XmlConfig"/>
 			<item value="AutoWiring_Using_Xml"/>
-			<item value="CreateBeanLifeCycleUsingAnnotation"/>
-			<item value="Init_And_Destroy_Using_Interface"/>
-			<item value="Init_And_Destroy_Method"/>
-			<item value="Constructor_Vs_Setter"/>
-			<item value="ConstructorInjection"/>
-			<item value="RefrenceInjection"/>
-			<item value="BeanOfRefrence"/>
-			<item value="nonPrimitive"/>
-			<item value="springcore"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
